@@ -281,9 +281,10 @@ async def play(_, message: Message):
         keyboard = InlineKeyboardMarkup(
             [
                 [
-                        InlineKeyboardButton(
-                            text="💞𝐒𝐔𝐌𝐏𝐎𝐑𝐓 𝐏𝐋𝐎𝐗𖦊𖦊",
-                            url=f"https://t.me/PAGAL_PANTII")
+                        InlineKeyboardButton("• Cʜᴀɴɴᴇʟ", url=f"https://t.me/LUCYSUPPOR"),
+                      InlineKeyboardButton("• Group", url=f"https://t.me/PAGAL_PANTII"),
+                  ],[
+                      InlineKeyboardButton("𝐎 𝐖 𝐍 𝐄 𝐑", url=f"https://t.me/PRKBOLTIPUBLIC")
 
                 ]
             ]
