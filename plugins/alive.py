@@ -43,11 +43,11 @@ async def start_(client: Client, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "➕ ❰ repo ❱ ➕", url=f"http://github.com/VENOM-CRAZY/VENOMxOPxMUSIC"),
-                        InlineKeyboardButton("• Cʜᴀɴɴᴇʟ", url=f"https://t.me/v3n0m_0p"),
+                        "➕ ❰ repo ❱ ➕", url=f"https://github.com/Prkboltipublic257/LUCY-MUSIC"),
+                        InlineKeyboardButton("• Cʜᴀɴɴᴇʟ", url=f"https://t.me/Statusforyoubby"),
                       InlineKeyboardButton("• Group", url=f"https://t.me/pagal_pantii"),
                   ],[
-                      InlineKeyboardButton("CREATER", url=f"https://t.me/Statusforyoubby")
+                      InlineKeyboardButton("CREATER", url=f"https://t.me/prkboltipublic")
                 ]
                 
            ]
