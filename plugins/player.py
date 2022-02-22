@@ -109,7 +109,7 @@ async def play(_, message: Message):
     global que
     global useer
     
-    lel = await message.reply("**🔎 𝐂𝐎𝐍𝐍𝐄𝐂𝐓𝐈𝐍𝐆 𝐓𝐎 𝐋ᑌᑕY 𝐒𝐄𝐑𝐕𝐄𝐑 ...**")
+    lel = await message.reply("**🔎 𝘊𝘖𝘕𝘕𝘌𝘊𝘛𝘐𝘕𝘎 𝘛𝘖 𝘓𝘜𝘊𝘠 𝘚𝘌𝘙𝘝𝘌𝘙 🇮🇱...**")
 
     administrators = await get_administrators(message.chat)
     chid = message.chat.id
@@ -129,13 +129,13 @@ async def play(_, message: Message):
                     invitelink = await _.export_chat_invite_link(chid)
                 except:
                     await lel.edit(
-                        "**💥 𝙰𝙳𝙼𝙸𝙽 𝚃𝙾 𝙱𝙽𝙰𝙳𝙴 𝙱𝙰𝙱𝚈☹︎☹︎ ...**")
+                        "**💥 𝘗𝘓𝘌𝘈𝘚𝘌 𝘔𝘈𝘒𝘌 𝘔𝘌 𝘈𝘋𝘔𝘐𝘕 𝘛𝘖 𝘗𝘓𝘈𝘠 𝘚𝘖𝘕𝘎𝘚 💫..**")
                     return
 
                 try:
                     await USER.join_chat(invitelink)
                     await USER.send_message(
-                        message.chat.id, "** 𝗖𝗢𝗡𝗡𝗘𝗖𝗧𝗘𝗗 𝐓𝐨 ᒪᑌᑕY 𝗦𝗘𝗥𝗩𝗘𝗥...**")
+                        message.chat.id, "** 𝘊𝘖𝘕𝘕𝘌𝘊𝘛𝘐𝘕𝘎 𝘛𝘖 𝘓𝘜𝘊𝘠 𝘚𝘌𝘙𝘝𝘌𝘙...**")
 
                 except UserAlreadyParticipant:
                     pass
